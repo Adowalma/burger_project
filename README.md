@@ -1,5 +1,5 @@
 # Vuejs_first
-=======
+
 # burger_project
 
 ## Project setup
