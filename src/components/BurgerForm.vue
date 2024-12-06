@@ -112,8 +112,10 @@ export default {
 
 <style scoped>
   #burger-form{
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
+    
+    /* margin: 12p; */
   }
   .input-container{
     display:flex;
@@ -122,6 +124,7 @@ export default {
     flex-direction:column;
 
     margin-bottom: 20px;
+    padding: 0px 20px 0px 20px;
   }
   label{
     font-weight: bold;
@@ -130,10 +133,13 @@ export default {
     padding: 5px 10px;
     border-left: 4px solid #fcba03;
   }
+  
   input,select{
     padding: 5px 10px;
-    width: 300px;
+    width: 100%;
+    border-radius: 5px;
   }
+
   #opcionais-container{
     flex-direction: row;
     flex-wrap: wrap;
@@ -163,6 +169,7 @@ export default {
     padding: 10px;
     font-size: 16px;
     margin: 0 auto;
+    width: 65%;
 
     /* para que apareca a maozinha ao passar com o cursor */
     cursor: pointer;

@@ -118,14 +118,6 @@
       "opcionais": [],
       "status": "Em produção",
       "id": 9
-    },
-    {
-      "nome": "Jurema",
-      "carne": "Picanha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 10
     }
   ]
 }

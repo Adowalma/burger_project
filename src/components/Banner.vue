@@ -15,7 +15,7 @@ export default {
     background-image: url('/img/burger.jpg');
 
     /* desloca o banner no eixo y [praticamente subiremos ele um pouco] */
-    /* background-position: 0 -250px; */
+    background-position: 0 -300px;
     /* comentei porque so estava a funcionar em tela cheia, ou seja, quando preenchida toda a resolucao da tela */
 
     /* para que a imagem apareca o maximo possivel na area que temos disponivel */
@@ -34,6 +34,24 @@ export default {
     text-align: center;
     font-size: 60px;
     background-color: rgba(34, 34, 34, 0.781);
-    padding: 20px 40px;
+    padding: 20px 40px;    
   }
+  @media screen and (max-width:1200px){
+    #main-banner{
+      background-position: 0;
+    }
+  }
+  @media screen and (max-width:647px){
+    #main-banner{
+      background-position-x: -130px;
+    }
+    
+  }
+  @media screen and (max-width:447px){
+    #main-banner{
+      background-position-x: -230px;
+    }
+    
+  }
+  
 </style>

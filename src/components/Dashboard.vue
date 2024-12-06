@@ -112,7 +112,7 @@
 <style scoped>
   #burger-table{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0px 5px;
   }
   #burger-table-heading,
   #burger-table-rows, 
@@ -135,23 +135,30 @@
     padding: 12px;
     border-bottom: 1px solid #ccc;
   }
+  .burger-table-row:hover{
+     background-color: #f5f5f5;
+     transition: .5s;
+  }
   #burger-table-heading .order-id, .burger-table-row .order-number{
     width: 5%;
   }
   select{
     padding:12px 6px;
-    margin-right:12px
+    /* margin-right:12px; */
+    margin-bottom:4px;
+    border-radius: 5px;
   }
   .delete-btn{
     background-color: #222;
     color: #fcba03;
     font-weight: bold;
-    border: 2 px solid #222;
+    border: 2px solid #222;
     padding: 10px;
     font-size: 16px;
     margin: 0 auto;
     cursor: pointer;
     transition: .5s;
+    border-radius: 5px;
   }
   .delete-btn:hover{
     background-color: transparent;
